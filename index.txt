@@ -4,10 +4,10 @@ Homeverse - Find your dream house
 # HEADER
 
 <ion-icon name="mail-outline"></ion-icon>
-info@homeverse.com
+contact@vasthu.fr
 
 <ion-icon name="location-outline"></ion-icon>
-15/A, Nest Tower, NYC
+14 Rue Caresmentrant 91330 Yerres
 
 <ion-icon name="logo-facebook"></ion-icon>
 <ion-icon name="logo-twitter"></ion-icon>
@@ -258,13 +258,13 @@ alt = Homeverse logo
 Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
 
 <ion-icon name="location-outline"></ion-icon>
-Brooklyn, New York, United States
+PARIS, FRANCE
 
 <ion-icon name="call-outline"></ion-icon>
-+0123-456789
++33-643787651
 
 <ion-icon name="mail-outline"></ion-icon>
-contact@homeverse.com
+contact@vasthu.fr
 
 <ion-icon name="logo-facebook"></ion-icon>
 <ion-icon name="logo-twitter"></ion-icon>
