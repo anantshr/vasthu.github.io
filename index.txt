@@ -1,4 +1,4 @@
-Homeverse - Find your dream house
+Vasthu - Find your dream house
 
 
 # HEADER
@@ -53,7 +53,7 @@ Real Estate Agency
 
 Find Your Dream House By Us
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+Discover remarkable savings on your next real estate project with our exclusive network, where you can access off-market and auctions deals.
 
 Make An Enquiry
 
