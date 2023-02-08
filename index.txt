@@ -7,7 +7,7 @@ Homeverse - Find your dream house
 contact@vasthu.fr
 
 <ion-icon name="location-outline"></ion-icon>
-14 Rue Caresmentrant,vasthu 91330 Yerres
+14 Rue Caresmentrant,91330 Yerres
 
 <ion-icon name="logo-facebook"></ion-icon>
 <ion-icon name="logo-twitter"></ion-icon>
