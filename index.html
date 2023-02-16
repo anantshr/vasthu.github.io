@@ -54,7 +54,7 @@
             <a href="#" class="header-top-link">
               <ion-icon name="location-outline"></ion-icon>
 
-              <address>14 Rue Caresmentrant, 91330 Yerres</address>
+              <address>14 Avenue Pierre Brossolette, montrouge</address>
             </a>
           </li>
 
@@ -88,8 +88,6 @@
             </li>
 
           </ul>
-
-          <button class="header-top-btn">Add Listing</button>
         </div>
 
       </div>
@@ -99,7 +97,7 @@
       <div class="container">
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" alt="Homeverse logo">
+          <img src="./assets/images/logo.png" alt="vasthu logo">
         </a>
 
         <nav class="navbar" data-navbar>
@@ -107,7 +105,7 @@
           <div class="navbar-top">
 
             <a href="#" class="logo">
-              <img src="./assets/images/logo.png" alt="Homeverse logo">
+              <img src="./assets/images/logo.png" alt="vasthu logo">
             </a>
 
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
@@ -210,6 +208,9 @@
             </p>
 
             <button class="btn" id="enquirybtn" name="enquirybtn">Make An Enquiry</button>
+            <!--<button class="btn" id="enquirybtn" onclick="toggle(this);">Make An Enquiry</button>-->
+
+
             <div id="iframeHolder"></div>
           </div>
 
@@ -1264,11 +1265,12 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo-light.png" alt="Homeverse logo">
+            <img src="./assets/images/logo-light.png" alt="vasthu logo">
           </a>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+            Vasthu is the expert to find the off market deals. We actively do the market and property analysis to help our clients to choose any property.
+            we participate in the various kind of public and close auctions.
           </p>
 
           <ul class="contact-list">
@@ -1282,10 +1284,10 @@
             </li>
 
             <li>
-              <a href="tel:+0123456789" class="contact-link">
+              <a href="tel:+33 6 34 04 80 19" class="contact-link">
                 <ion-icon name="call-outline"></ion-icon>
 
-                <span>+0123-456789</span>
+                <span>+33 6 34 04 80 19</span>
               </a>
             </li>
 
@@ -1436,17 +1438,13 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+          &copy; 2023 <a href="www.vasthu.fr">vasthu</a>. All Rights Reserved
         </p>
 
       </div>
     </div>
 
   </footer>
-
-
-
-
 
   <!-- 
     - custom js link
@@ -1470,6 +1468,20 @@ $(function(){
 });
 </script>
 
+  <script>
+  let toggle = button => {
+    let element = document.getElementById("iframeHolder");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+       button.innerText = "Hide Iframe";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       button.innerText = "Show Iframe";
+    }
+  }
+</script>
 </body>
 
 </html>
