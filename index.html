@@ -17,7 +17,7 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
+  <!-- +
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -207,11 +207,8 @@
               Discover remarkable savings on your next real estate project with our exclusive network, where you can access off-market and auctions deals.
             </p>
 
-            <button class="btn" id="enquirybtn" name="enquirybtn">Make An Enquiry</button>
-            <!--<button class="btn" id="enquirybtn" onclick="toggle(this);">Make An Enquiry</button>-->
+            <!--<button class="btn" id="enquirybtn" onclick="toggle(this);">Make An Enquiry</button> -->
 
-
-            <div id="iframeHolder"></div>
           </div>
 
           <figure class="hero-banner">
@@ -1459,16 +1456,16 @@
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
   <script type="text/javascript">
-$(function(){
-    $('#enquirybtn').click(function(){
-        if(!$('#iframe').length) {
-                $('#iframeHolder').html('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJKNEmvOs_bdS0XI8UkEe8tA9keWRLVhBlAgGg0gNRPKQbww/viewform?embedded=true" width="640" height="1117" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>');
-        }
+    $(function(){
+        $('#enquirybtn').click(function(){
+            if(!$('#iframe').length) {
+                    $('#iframeHolder').html('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJKNEmvOs_bdS0XI8UkEe8tA9keWRLVhBlAgGg0gNRPKQbww/viewform?embedded=true" width="640" height="1117" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>');
+            }
+        });
     });
-});
 </script>
 
-  <script>
+<!--  <script>
   let toggle = button => {
     let element = document.getElementById("iframeHolder");
     let hidden = element.getAttribute("hidden");
@@ -1481,6 +1478,14 @@ $(function(){
        button.innerText = "Show Iframe";
     }
   }
+</script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("iframe").toggle();
+  });
+});
 </script>
 </body>
 
